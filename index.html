@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Ahmed - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .left {
+            background: #1f497d;
+            color: white;
+            padding: 30px;
+            width: 35%;
+            text-align: center;
+        }
+        .left img {
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .right {
+            padding: 30px;
+            width: 65%;
+        }
+        h1 {
+            color: #1f497d;
+        }
+        h3 {
+            color: #1f497d;
+            border-bottom: 2px solid #1f497d;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" itemscope itemtype="https://schema.org/Person">
+        <!-- Left Section -->
+        <div class="left">
+            <img src="profile.jpg" alt="Bilal Ahmed" itemprop="image">
+            <h2 itemprop="name">Bilal Ahmed</h2>
+            
+            <h3>About Me</h3>
+            <p itemprop="description">
+                I'm Bilal Ahmed, a dedicated computer science student at the University of Sargodha with strong problem-solving, analytical, and programming abilities.
+            </p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li itemprop="knowsAbout">Python</li>
+                <li itemprop="knowsAbout">SQL</li>
+                <li itemprop="knowsAbout">Excel</li>
+                <li itemprop="knowsAbout">C++</li>
+                <li itemprop="knowsAbout">PHP</li>
+                <li itemprop="knowsAbout">HTML, CSS, JavaScript</li>
+            </ul>
+
+            <h3>Languages</h3>
+            <p itemprop="knowsLanguage">English, Urdu, Punjabi</p>
+
+            <h3>Contact</h3>
+            <p itemprop="address">Cheema Colony Street No. 2, Sargodha</p>
+            <p itemprop="telephone">0346-2201172</p>
+            <p>Email: <span itemprop="email">bilalahmed7072@gmail.com</span></p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+            <h1 itemprop="name">Bilal Ahmed</h1>
+
+            <div class="section">
+                <h3>Work Experience</h3>
+                <div itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                    <p><strong itemprop="name">E-commerce Website</strong> - UOS Semester 4th</p>
+                    <p itemprop="description">Implemented product catalog, shopping cart, and payment gateway integration.</p>
+                </div>
+                <div itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                    <p><strong itemprop="name">Library Management System</strong> - UOS Semester 6th</p>
+                    <p itemprop="description">Implemented book catalog, member registration, and borrowing system.</p>
+                </div>
+                <div itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                    <p><strong itemprop="name">Final Year Project</strong> - UOS Semester 7-8th</p>
+                    <p itemprop="description">Developing a Web-Based Chatbot for Student Guidance (In Progress).</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Education</h3>
+                <div itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                    <p><strong itemprop="name">University of Sargodha</strong> (2021-2025)</p>
+                    <p itemprop="description">Bachelor of Computer Science - Strong understanding of OOP, data structures & algorithms, and Artificial Intelligence.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Hobbies</h3>
+                <p itemprop="hobby">Music, Travelling, Research</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
